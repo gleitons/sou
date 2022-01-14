@@ -11,7 +11,7 @@ function randomImagen() {
 
     const nAleatorio = (Math.random() * 68).toFixed(0,2);
     var  trocaImage = document.querySelector('img#trocaImage')
-    trocaImage.setAttribute('src', `randomjpg/${nAleatorio}.jpeg`)
+    trocaImage.setAttribute('src', `random/${nAleatorio}.webp`)
 
 
 
