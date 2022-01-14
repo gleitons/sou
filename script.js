@@ -7,3 +7,15 @@ function verImagem() {
    
     
 }
+function randomImagen() {
+
+    const nAleatorio = (Math.random() * 68).toFixed(0,2);
+
+
+
+    imagemPesada.innerHTML = `<img class="imgN" src="/random/${nAleatorio}.webp" alt="">`
+
+}
+function outraideia() {
+    location.reload();
+}
