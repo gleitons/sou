@@ -13,7 +13,7 @@ function randomImagen() {
 
 
 
-    imagemPesada.innerHTML = `<img class="imgN" src="/random/${nAleatorio}.webp" alt="">`
+    imagemPesada.innerHTML = `<img class="imgN" src="/randomjpg/${nAleatorio}.jpeg" alt="">`
 
 }
 function outraideia() {
