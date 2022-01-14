@@ -4,7 +4,7 @@ header {
     min-width: 300px;
     margin: auto;
 }
-.imgN{
+#trocaImage{
     width: 400px;
     height: auto;
 }
@@ -25,8 +25,9 @@ button{
         width: 360px;        
         margin: 0 auto;
     }
-    .imgN{
-        width: 100%;
+    #trocaImage{
+
+        width: 360px;
     }
     h1{
         width: 360px;
