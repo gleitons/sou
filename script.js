@@ -99,25 +99,22 @@ function randomImagenindex() {
     
     
 }
-function voltaMesscima() {
-    randomImagen()
-    const idImageFL = document.getElementById('frasesLoucas');
-    idImageFL.classList.remove('DNone');
+// function voltaMesscima() {
+//     randomImagen()
+//     const idImageFL = document.getElementById('frasesLoucas');
+//     idImageFL.classList.remove('DNone');
 
-    return idImageFL;
+//     return idImageFL;
     
-}
+// }
 
 function randomImagen() {
     
     const nAleatorio = (Math.random() * 68).toFixed(0,2);
-    var  trocaImage = document.querySelector('img#trocaImage')
-    
+    var  trocaImage = document.querySelector('img#trocaImage');    
 
     const selecaoStick = (Math.random() * 7).toFixed(0,2);
-    const frasesR = (Math.random() * 141).toFixed(0,2);
-
-    
+    const frasesR = (Math.random() * 141).toFixed(0,2);   
 
 
     const randomFrase = frases(parseInt(frasesR));
@@ -478,7 +475,20 @@ function frases(Snumero) {
 
     "Se ferradura desse sorte burro não puxava carroça!",
     "Quem cedo madruga passa o dia com sono.",
-    "Dívida para mim é sagrada. Deus lhe pague!"
+    "Dívida para mim é sagrada. Deus lhe pague!",
+    "Será que a cabeça de alguém já explodiu de tanto pensar?",
+    "Me mata mas não fala que precisa conversar mais tarde.",
+    "Mandei mensagem tem quinze minutos e ela não me respondeu. Será que aconteceu alguma coisa?",
+    "Mas tá certinho, né? Precisa mudar alguma coisa? Refazer algo?",
+    "Vou terminar aqui, aí vou ali fazer aquilo e depois vou fazer aquelas três coisas e depois...",
+    "Nossa, mas não vou chegar em 20 minutos NUNCA.",
+    "Minha cabeça vai explodir de tanto que pensei naquilo.",
+    "Eu queria tanto ser daquelas pessoas que não planejam nada e deixam a vida levar.",
+    "Será que eu tranquei a porta? E se eu não tranquei?",
+    "Se minha vida dependesse de ter que dormir cedo eu já estaria morta.",
+    "\"Realmente não funciono sobre pressão\", já sentindo o braço formigar.",
+    "Como que pode dormir doze horas e acordar completamente cansado?",
+    "Tô tranquilo. Sério, tô tranquilo MESMO. Sério, dessa vez vai ser diferente. Tranquilão aqui",
 
 
     ];

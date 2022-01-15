@@ -85,35 +85,83 @@ button:active{
 
 
 @media (max-width:360px) {
+    #imagePesada {
+        height: 100%;
+        align-content: center;
+        box-shadow: black 0px 0px 10px 0px;
+        background-image: linear-gradient(to bottom, rgb(241, 241, 171), rgb(241, 241, 241));
+    }
+    .bord {
+        border: black solid 1px;
+    }
     header {
-        
-        width: 360px;        
-        margin: 0 auto;
+        border: black solid 1px;
+        text-align: center;
+        max-width: 900px;
+        height: 600px;
+        min-width: 300px;
+        margin: auto;
+        overflow: hidden;
     }
     #trocaImage{
-
+        padding-top: 120px;
+        align-items: center;
         width: 360px;
-    }
-    h1{
-        width: 360px;
-        text-align: center;
-        font-size: 40px;
-    }
-    h2 {
-        text-align: center;
-        font-size: 20px;
+        height: auto;
+        overflow: hidden;
     }
     button{
-        margin: auto;
+    
         padding: 10px;
         margin-top: 10px;
         font-size: 20px;
+    }
+    button:active{
+        box-shadow: inset 0px 0px 10px 0px;
     }
     .criadopor{
         font-size: 10px;
         text-align: end;
     }
-    #imagePesada {
-        height: 380px;
+    #AgoraAguarde{
+        transform: rotate(-90deg);
+        margin-left: -861px;
+        font-size: 40px;
+        color: rgba(0, 0, 0, 0.253);
+    
     }
+    .hast{
+        width: 350px;
+        margin: 20px auto;
+    }
+    .DNone {
+        display: none;
+    }
+    .Dblock {
+        display: block;
+    }
+    #frasesLoucas{
+        border-radius: 10px;
+        position: absolute;
+        box-shadow: rgba(0, 0, 0, 0.664) 0px 0px 10px 0px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        font-size: 20px;
+        margin: 10px 5px;
+        background-color: rgba(255, 255, 255, 0.884);
+    }
+    #frasesLoucasB{
+        border-radius: 10px;
+        position: absolute;
+        box-shadow: rgb(0 0 0 / 66%) 0px 0px 10px 0px;
+        padding: 10px;
+        width: 350px;
+        text-align: center;
+        font-size: 20px;
+        margin: 0px 5px;
+        background-color: rgba(255, 255, 255, 0.884);
+    }
+    
+    
 }
