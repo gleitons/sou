@@ -7,6 +7,40 @@
    
     
 // }
+
+function randomImagenindex() {
+
+    const nAleatorio = (Math.random() * 68).toFixed(0,2);
+    var  trocaImage = document.querySelector('img#trocaImage')
+
+    const selecaoStick = (Math.random() * 4).toFixed(0,2);
+    const frasesR = (Math.random() * 141).toFixed(0,2);
+
+
+    const randomFrase = frases(parseInt(frasesR));
+
+    frasesLoucas.innerHTML = `${randomFrase}`
+    
+    
+
+
+    if (selecaoStick == 1){
+        trocaImage.setAttribute('src', `random/${nAleatorio}.webp`)
+    } else if (selecaoStick == 2){
+        trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`)
+    } else if (selecaoStick == 3){
+        trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`)
+    } else {
+        trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`)
+    }
+    
+
+
+    imagePesada.innerHTML = `${imrandom} ${randomFrase}`
+    
+    
+}
+
 function randomImagen() {
 
     const nAleatorio = (Math.random() * 68).toFixed(0,2);
