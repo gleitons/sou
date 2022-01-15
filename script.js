@@ -13,7 +13,7 @@ function randomImagen() {
     var  trocaImage = document.querySelector('img#trocaImage')
 
     const selecaoStick = (Math.random() * 4).toFixed(0,2);
-    const frasesR = (Math.random() * 35).toFixed(0,2);
+    const frasesR = (Math.random() * 141).toFixed(0,2);
 
 
     const randomFrase = frases(parseInt(frasesR));
@@ -94,186 +94,212 @@ function frases(Snumero) {
 
     "Uma vez eu tentei ser normal… Foram os piores 2 minutos da minha vida!",
 
-    "Na vida, assim como na geladeira: o que está no interior é que importa. 💕"
-    // Fofoqueira? Eu sou historiadora da vida alheia! 🤓📚
+    "Na vida, assim como na geladeira: o que está no interior é que importa. 💕",
+    "Fofoqueira? Eu sou historiadora da vida alheia! 🤓📚",
 
-    // Se você é uma dessas pessoas que não tem sorte, quando vir a luz no fim do túnel… Corra, pois é um trem.
+    "Se você é uma dessas pessoas que não tem sorte, quando vir a luz no fim do túnel… Corra, pois é um trem.",
 
-    // Maurício Motta
+    "Inveja de você? Inveja eu sinto do meu cachorro, que come, passeia e dorme o dia inteiro.",
 
-    // Inveja de você? Inveja eu sinto do meu cachorro, que come, passeia e dorme o dia inteiro.
+    "Uma história de terror em três palavras: hoje é segunda. 😱😱😱",
 
-    // Uma história de terror em três palavras: hoje é segunda. 😱😱😱
+    "Fácil é fazer miojo... Viver é complicado!",
 
-    // Fácil é fazer miojo... Viver é complicado!
+    "Você passa o dia com sono, aí quando deita na cama fica com vontade de fazer um bolo, escrever um livro e aprender cinco idiomas novos.",
 
-    // Você passa o dia com sono, aí quando deita na cama fica com vontade de fazer um bolo, escrever um livro e aprender cinco idiomas novos.
+    "Precisamos inventar um dia novo entre sábado e domingo.",
 
-    // Precisamos inventar um dia novo entre sábado e domingo.
+    "Na minha situação atual, se eu for cortar uma cebola, é ela que chora. 😆😅🤣",
 
-    // Na minha situação atual, se eu for cortar uma cebola, é ela que chora. 😆😅🤣
+    "Quem inventou o trabalho não tinha o que fazer.",
 
-    // Quem inventou o trabalho não tinha o que fazer.
+    "Aqui o rosto é de gatinha, mas a fúria é de leão! 🦁",
 
-    // Barão de Itararé
+    "Tudo passa… Nem que seja por cima de você... 😜",
 
-    // Aqui o rosto é de gatinha, mas a fúria é de leão! 🦁
+    "Muita interessante a sua opinião, só tem uma coisa: eu não pedi.",
 
-    // Tudo passa… Nem que seja por cima de você... 😜
+    "Os primeiros cinco dias da semana são sempre os mais complicados.",
 
-    // Muita interessante a sua opinião, só tem uma coisa: eu não pedi.
+    "Metade de mim é preguiça… E a outra metade também. 💤💤💤",
 
-    // Os primeiros cinco dias da semana são sempre os mais complicados.
+    "Você fala que é “procrastinação”, mas eu prefiro chamar de “motivação seletiva”.",
 
-    // Metade de mim é preguiça… E a outra metade também. 💤💤💤
+    "Estado civil: num relacionamento à distância com a minha cama. ",
 
-    // Você fala que é “procrastinação”, mas eu prefiro chamar de “motivação seletiva”.
+    "Namore alguém que espere por você como eu espero pela sexta-feira. 😍🥰",
 
-    // Estado civil: num relacionamento à distância com a minha cama. 
+    "O rostinho pode ser de moça, mas a dor nas costas é de idosa.",
 
-    // Namore alguém que espere por você como eu espero pela sexta-feira. 😍🥰
+    "Saudade de ir no barzinho com os amigos e passar várias vergonhas, né, minha filha? 🤩",
 
-    // O rostinho pode ser de moça, mas a dor nas costas é de idosa.
+    "Batatinha quando nasce, se esparrama pelo chão… Eu quando me apaixono, quebro a cara e o coração.",
 
-    // Saudade de ir no barzinho com os amigos e passar várias vergonhas, né, minha filha? 🤩
+    "Algumas pessoas são como nuvens: é só irem embora e o dia fica lindo.",
 
-    // Batatinha quando nasce, se esparrama pelo chão… Eu quando me apaixono, quebro a cara e o coração.
+    "Descobri um lugar ótimo para você ficar: na sua. 😒",
 
-    // Algumas pessoas são como nuvens: é só irem embora e o dia fica lindo.
+    "Se quer falar de mim, fala na cara. Nas costas pode fazer uma massagem.",
 
-    // Descobri um lugar ótimo para você ficar: na sua. 😒
-
-    // Se quer falar de mim, fala na cara. Nas costas pode fazer uma massagem.
-
-    // Meu cupido anda mais preguiçoso que eu! 🥱😥
+    "Meu cupido anda mais preguiçoso que eu! 🥱😥",
 
     
-    // Uma série que eu estou assistindo? A série de erros que cometi na minha vida. 🙃
+    "Uma série que eu estou assistindo? A série de erros que cometi na minha vida. 🙃",
 
-    // Hoje estou muito ocupada... Fazendo vários nadas.
+    "Hoje estou muito ocupada... Fazendo vários nadas.",
 
-    // As pessoas esquecem mais de mim que da letra do hino nacional.
+    "As pessoas esquecem mais de mim que da letra do hino nacional.",
 
-    // Quem ri por último, não entendeu a piada.
+    "Quem ri por último, não entendeu a piada.",
 
-    // Só tem uma coisa pior que acordar cedo: feriado no domingo!
+    "Só tem uma coisa pior que acordar cedo: feriado no domingo!",
 
-    // Será que Deus me desenhou no Paint? 😛
+    "Será que Deus me desenhou no Paint? 😛",
 
-    // Meu cupido deve ser gari porque ele só me traz lixo.
+    "Meu cupido deve ser gari porque ele só me traz lixo.",
 
-    // Antes eu era arrogante, mas hoje em dia sou perfeito.
+    "Antes eu era arrogante, mas hoje em dia sou perfeito.",
 
-    // A preguiça é a mãe de todos os vícios e, como mãe, ela merece ser respeitada!
+    "A preguiça é a mãe de todos os vícios e, como mãe, ela merece ser respeitada!",
 
-    // Lembre-se sempre de que você é único. Assim como todo mundo.
+    "Lembre-se sempre de que você é único. Assim como todo mundo.",
 
-    // Tem gente que gosta tanto de Carnaval, que vive o ano inteiro de máscara. 🤡
+    "Tem gente que gosta tanto de Carnaval, que vive o ano inteiro de máscara. 🤡",
 
-    // Eu estou precisando de umas férias de 6 meses… Duas vezes por ano!
+    "Eu estou precisando de umas férias de 6 meses… Duas vezes por ano!",
 
-    // Sabe aqueles dias em que você acorda cheio de energia para arrumar a casa? Nunca aconteceu comigo, mas deve ser ótimo. 😌
+    "Sabe aqueles dias em que você acorda cheio de energia para arrumar a casa? Nunca aconteceu comigo, mas deve ser ótimo. 😌",
 
-    // Quem é casado há quarenta anos com dona Maria não entende de casamento, entende de dona Maria. De casamento entendo eu, que tive seis.
+    "Quem é casado há quarenta anos com dona Maria não entende de casamento, entende de dona Maria. De casamento entendo eu, que tive seis.",
 
-    // Aí você vai na cozinha de madrugada cantando música de Deus... Pra disfarçar o medo do capeta!
+    "Aí você vai na cozinha de madrugada cantando música de Deus... Pra disfarçar o medo do capeta!",
 
 
-    // Hoje está um dia maravilhoso para você me deixar em paz. 😄
+    "Hoje está um dia maravilhoso para você me deixar em paz. 😄",
 
-    // Você se chama Google? Porque você é tudo que eu procuro.
+    "Você se chama Google? Porque você é tudo que eu procuro.",
 
-    // Livrai-me do todo mal: amado, olhado e humorado, amém.
+    "Livrai-me do todo mal: amado, olhado e humorado, amém.",
 
-    // Chato - Indivíduo que tem mais interesse em nós do que nós temos nele.
-    // Estou começando a achar que a minha metade da laranja já virou suco. 🍊🧡
+    "Chato - Indivíduo que tem mais interesse em nós do que nós temos nele.",
+    "Estou começando a achar que a minha metade da laranja já virou suco. 🍊🧡",
 
-    // O problema das mentes fechadas é que elas geralmente vêm acompanhadas de uma boca aberta.
+    "O problema das mentes fechadas é que elas geralmente vêm acompanhadas de uma boca aberta.",
 
-    // Se ferradura desse sorte, burro não puxava carroça!
+    "Se ferradura desse sorte, burro não puxava carroça!",
 
-    // Era um menino tão mau que só se tornou radiologista para ver a caveira dos outros.
+    "Era um menino tão mau que só se tornou radiologista para ver a caveira dos outros.",
 
-    // Desculpa o meu atraso, é que eu não queria vir.
+    "Desculpa o meu atraso, é que eu não queria vir.",
 
-    // Na frase “ele acordou cedo”, o sujeito se encontra… Com sono.
+    "Na frase “ele acordou cedo”, o sujeito se encontra… Com sono.",
 
-    // Tá feliz? Sobe na balança que isso passa! 😚
+    "Tá feliz? Sobe na balança que isso passa! 😚",
 
-    // Não mando indiretas. Apenas falo algumas realidades discretamente na cara da pessoa sem a mínima intenção de que ela perceba.
+    "Não mando indiretas. Apenas falo algumas realidades discretamente na cara da pessoa sem a mínima intenção de que ela perceba.",
 
-    // Infelizmente, eu não vou poder ir... Porque não quero!
+    "Infelizmente, eu não vou poder ir... Porque não quero!",
 
-    // No dia em que a sua opinião for um bolo de chocolate, eu vou querer.
+    "No dia em que a sua opinião for um bolo de chocolate, eu vou querer.",
 
-    // Ironia é igual blush: não sabe, não usa.
-    // Voltar para você? Desculpa, mas eu não achei o meu coração no lixo. 😷
+    "Ironia é igual blush: não sabe, não usa.",
+    "Voltar para você? Desculpa, mas eu não achei o meu coração no lixo. 😷",
 
-    // No teatro da vida, o papel de trouxa é meu. 🤡🤡🤡
+    "No teatro da vida, o papel de trouxa é meu. 🤡🤡🤡",
 
-    // Eu posso ser 100% saudade, mas sou 200% orgulho.
+    "Eu posso ser 100% saudade, mas sou 200% orgulho.",
 
-    // Só existem dois tipos de pessoas: as que concordam comigo e as que estão erradas.
+    "Só existem dois tipos de pessoas: as que concordam comigo e as que estão erradas.",
 
-    // Querida matemática: por favor, seja adulta e resolva os seus problemas sozinha.
+    "Querida matemática: por favor, seja adulta e resolva os seus problemas sozinha.",
 
-    // O cachorro do meu marido não faz nada que eu peço… É por isso que eu prefiro gatos.
-    // A sua opinião é muito importante para mim. Por isso guarde-a até o dia que eu pedir para você!
+    "O cachorro do meu marido não faz nada que eu peço… É por isso que eu prefiro gatos.",
+    "A sua opinião é muito importante para mim. Por isso guarde-a até o dia que eu pedir para você!",
 
-    // Algumas pessoas são perfeitas como vinho. Ficam melhores com uma rolha na boca.
+    "Algumas pessoas são perfeitas como vinho. Ficam melhores com uma rolha na boca.",
 
-    // Apenas seis pessoas sofrem quando a economia está ruim: eu, tu, ele, nós, vós e eles.
+    "Apenas seis pessoas sofrem quando a economia está ruim: eu, tu, ele, nós, vós e eles.",
 
-    // Acredite, dias melhores estão por vir! Eles se chamam, sábado, domingo e feriado.
-    // Estou fazendo uma nova dieta. É a dieta da fé. Como de tudo e espero que o milagre seja realizado.
-    // O alcoolismo mata lentamente, bebo pra não morrer de repente.
+    "Acredite, dias melhores estão por vir! Eles se chamam, sábado, domingo e feriado.",
+    "Estou fazendo uma nova dieta. É a dieta da fé. Como de tudo e espero que o milagre seja realizado.",
+    "O alcoolismo mata lentamente, bebo pra não morrer de repente.",
 
-    // Eu até tenho controle, o problema é que tô sem pilha.
-    // É melhor chegar atrasado nesta vida do que adiantado na outra.
+    "Eu até tenho controle, o problema é que tô sem pilha.",
+    "É melhor chegar atrasado nesta vida do que adiantado na outra.",
 
-    // Em pane de avião ninguém é ateu.
+    "Em pane de avião ninguém é ateu.",
 
-    // O preço é uma prece... Pague pra ver.
+    "O preço é uma prece... Pague pra ver.",
 
-    // Na frase “eu adoro segunda-feira” o sujeito ou é louco, ou é aposentado ou tá de férias.
+    "Na frase “eu adoro segunda-feira” o sujeito ou é louco, ou é aposentado ou tá de férias.",
 
-    // Não preciso ativar minha localização. Todo mundo sabe que eu tô na sua.
+    "Não preciso ativar minha localização. Todo mundo sabe que eu tô na sua.",
 
-    // Hoje é seu aniversário? Porque você está de parabéns.
+    "Hoje é seu aniversário? Porque você está de parabéns.",
 
-    // O meu maior problema é que meu namorado mora muito longe. Eu moro aqui e ele mora no futuro.
+   " O meu maior problema é que meu namorado mora muito longe. Eu moro aqui e ele mora no futuro.",
 
-    // Você acredita em amor à primeira vista ou vai ter que passar por aqui mais vezes?
+    "Você acredita em amor à primeira vista ou vai ter que passar por aqui mais vezes?",
 
-    // Você tem uma colher aí? Hoje eu estou dando sopa.
+    "Você tem uma colher aí? Hoje eu estou dando sopa.",
 
-    // Você concorda que 'agente' junto é erro de português e 'a gente' separado é erro do destino?
+    "Você concorda que 'agente' junto é erro de português e 'a gente' separado é erro do destino?",
 
-    // Seu nome é mentira? Porque você é muito linda para ser verdade.
+    "Seu nome é mentira? Porque você é muito linda para ser verdade.",
 
-    // Você trabalho no Google? Porque você tem tudo que eu procuro.
+    "Você trabalho no Google? Porque você tem tudo que eu procuro.",
 
-    // Tantos erros que cometemos na vida. O que custa eu ser mais um?
+    "Tantos erros que cometemos na vida. O que custa eu ser mais um?",
 
-    // Toda pessoa pública é antes uma privada.
+    "Toda pessoa pública é antes uma privada.",
+    "Se ferradura desse sorte burro não puxava carroça!",
 
-    // Se ferradura desse sorte burro não puxava carroça!
+    "Em briga de saci qualquer chute é uma voadora.",
 
-    // Em briga de saci qualquer chute é uma voadora.
+    "Quem cedo madruga passa o dia com sono.",
 
-    // Quem cedo madruga passa o dia com sono.
+    "Prefiro ser um bêbado conhecido do que um alcoólatra anônimo.",
 
-    // Prefiro ser um bêbado conhecido do que um alcoólatra anônimo.
+    "Meu ponto fraco tem nome, endereço e um sorriso lindo.",
 
-    // Meu ponto fraco tem nome, endereço e um sorriso lindo.
+    "Se eu te cortei da minha vida existe uma grande chance de você ter me dado a tesoura.",
 
-    // Se eu te cortei da minha vida existe uma grande chance de você ter me dado a tesoura.
+    "Tem gente que gosta tanto de Carnaval, que passa o ano inteiro de máscara.",
 
-    // Tem gente que gosta tanto de Carnaval, que passa o ano inteiro de máscara.
+    "Quanto tempo eu vou ter que usar capacete para me proteger da queda que eu tenho por você?",
 
-    // Quanto tempo eu vou ter que usar capacete para me proteger da queda que eu tenho por você?
+    "Apaixonada, saquei minha arma, minha alma, minha calma: só você não sacou nada ainda.",
 
-    // Apaixonada, saquei minha arma, minha alma, minha calma: só você não sacou nada ainda.
+    "Não deixe de perdoar os seus inimigos - nada os irrita tanto.",
+
+    "O mundo pode ser um palco. Mas o elenco é um horror.",
+
+    "Um homem entra em um restaurante francês e pergunta para o garçom: \“você tem pernas de sapo?\" O garçom olha ofendido para o cliente e diz: \“não, eu sempre andei desse jeito\”.",
+
+    "Um casal vai ao cinema. O homem diz: \“dois ingressos, por favor\”. \"Hobbit?\” pergunta o jovem da bilheteria. Não, essa é minha esposa.",
+
+    "Dizem que é ofensivo falar com a boca cheia. Pessoalmente, eu acho pior falar com a cabeça vazia.",
+
+    "Como você chega em uma garota em um bar? Pegue alguns cubos de gelo e triture na frente dela.Depois diga: \“Agora que quebrei o gelo, posso te pagar uma bebida?\”",
+
+    "Um homem vai a uma loja da Samsung para comprar um novo celular. \“Modelo?\”, pergunta a atendente Não, eu sou encanador, mas muito obrigado.",
+
+    "Se um pato perde a pata ele fica manco ou viúvo?",
+
+    "Por que o quadro negro é verde e o milho verde é amarelo?",
+
+    "Se as pessoas vieram dos macacos, por que ainda existem macacos?",
+
+    "Como um vinho pode ser seco, sendo líquido?",
+
+    "O que veio primeiro: a cor laranja ou a fruta?",
+
+    "Em briga de saci qualquer chute é uma voadora.",
+
+    "Se ferradura desse sorte burro não puxava carroça!",
+    "Quem cedo madruga passa o dia com sono.",
+    "Dívida para mim é sagrada. Deus lhe pague!"
+
 
     ];
 

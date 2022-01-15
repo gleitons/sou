@@ -5,6 +5,7 @@
 }
 #imagePesada {
     height: 380px;
+    background-image: linear-gradient(to bottom, rgb(241, 241, 171), rgb(241, 241, 241));
 }
 .bord {
     border: black solid 1px;
@@ -16,10 +17,12 @@ header {
     height: 900px;
     min-width: 300px;
     margin: auto;
+    overflow: hidden;
 }
 #trocaImage{
-    width: 400px;
+    width: 100%;
     height: auto;
+    overflow: hidden;
 }
 button{
 
@@ -34,11 +37,19 @@ button:active{
     font-size: 10px;
     text-align: end;
 }
+#AgoraAguarde{
+    transform: rotate(-90deg);
+    margin-left: -861px;
+    font-size: 40px;
+    color: rgba(0, 0, 0, 0.253);
+
+}
 #frasesLoucas{
     box-shadow: rgba(0, 0, 0, 0.548) 0px 0px 5px 0px;
     padding: 10px;
-    width: 500px;
-    margin: 10px auto;
+    width: 100%;
+    font-size: 45px;
+    margin: 0px auto;
     background-color: rgb(241, 241, 171);
 }
 
@@ -73,12 +84,5 @@ button:active{
     }
     #imagePesada {
         height: 380px;
-    }
-    #frasesLoucas{
-        box-shadow: rgba(0, 0, 0, 0.548) 0px 0px 5px 0px;
-        padding: 10px;
-        width: 360px;
-        margin: 10px auto;
-        background-color: rgb(241, 241, 171);
     }
 }
