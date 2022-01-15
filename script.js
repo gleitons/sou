@@ -19,6 +19,8 @@ function randomImagen() {
     const randomFrase = frases(parseInt(frasesR));
 
     frasesLoucas.innerHTML = `${randomFrase}`
+    frasesLoucasB.innerHTML = `${randomFrase}`
+    fraseHash.innerHTML = `${randomFrase}`
 
 
     if (selecaoStick == 1){
@@ -34,10 +36,22 @@ function randomImagen() {
 
 
     imagePesada.innerHTML = `${imrandom} ${randomFrase}`
+    fraseHash.innerHTML = `${randomFrase}`
     
 }
 function outraideia() {
     location.reload();
+}
+
+function removeDiv() {
+    const idImageFL = document.getElementById('frasesLoucas');
+    idImageFL.addEventListener('click', 
+    idImageFL.classList.add('DNone'));
+}
+function removeDivB() {
+    const idImageFL = document.getElementById('frasesLoucasB');
+    idImageFL.addEventListener('click', 
+    idImageFL.classList.add('DNone'));
 }
 
 
