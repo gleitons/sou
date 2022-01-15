@@ -54,6 +54,9 @@ button:active{
 .DNone {
     display: none;
 }
+.Dblock {
+    display: block;
+}
 #frasesLoucas{
     border-radius: 10px;
     position: absolute;

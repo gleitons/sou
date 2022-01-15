@@ -10,10 +10,10 @@
 
 function randomImagenindex() {
 
-    const nAleatorio = (Math.random() * 68).toFixed(0,2);
+    const nAleatorio = (Math.random() * 119).toFixed(0,2);
     var  trocaImage = document.querySelector('img#trocaImage')
 
-    const selecaoStick = (Math.random() * 4).toFixed(0,2);
+    const selecaoStick = (Math.random() * 7).toFixed(0,2);
     const frasesR = (Math.random() * 141).toFixed(0,2);
 
 
@@ -25,13 +25,72 @@ function randomImagenindex() {
 
 
     if (selecaoStick == 1){
-        trocaImage.setAttribute('src', `random/${nAleatorio}.webp`)
+        if (nAleatorio <= 68) {
+            trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 68).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
+        }
+        
+
     } else if (selecaoStick == 2){
-        trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`)
+        if (nAleatorio <= 118) {
+            trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 118).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`);
+        }
+        
     } else if (selecaoStick == 3){
-        trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`)
+        if (nAleatorio <= 93) {
+            trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 93).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`);
+        }
+        
+    } 
+    else if (selecaoStick == 4){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/memegatos_${nAleatorio}.webp`)
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/memegatos_${nAleatorio}.webp`)
+        }
+        
+    } 
+    else if (selecaoStick == 5){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/memegatos2_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/memegatos2_${nAleatorio}.webp`);
+        }
+    } 
+    else if (selecaoStick == 6){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/animals2_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/animals2_${nAleatorio}.webp`);
+        }
+        
+    } 
+    else if (selecaoStick == 7){
+        if (nAleatorio <= 83) {
+            trocaImage.setAttribute('src', `random/ale_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 83).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/ale_${nAleatorio}.webp`);
+        }
+        
     } else {
-        trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`)
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`);
+        }
     }
     
 
@@ -40,14 +99,25 @@ function randomImagenindex() {
     
     
 }
+function voltaMesscima() {
+    randomImagen()
+    const idImageFL = document.getElementById('frasesLoucas');
+    idImageFL.classList.remove('DNone');
+
+    return idImageFL;
+    
+}
 
 function randomImagen() {
-
+    
     const nAleatorio = (Math.random() * 68).toFixed(0,2);
     var  trocaImage = document.querySelector('img#trocaImage')
+    
 
-    const selecaoStick = (Math.random() * 4).toFixed(0,2);
+    const selecaoStick = (Math.random() * 7).toFixed(0,2);
     const frasesR = (Math.random() * 141).toFixed(0,2);
+
+    
 
 
     const randomFrase = frases(parseInt(frasesR));
@@ -58,20 +128,79 @@ function randomImagen() {
 
 
     if (selecaoStick == 1){
-        trocaImage.setAttribute('src', `random/${nAleatorio}.webp`)
+        if (nAleatorio <= 68) {
+            trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 68).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
+        }
+        
+
     } else if (selecaoStick == 2){
-        trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`)
+        if (nAleatorio <= 118) {
+            trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 118).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/bebe_${nAleatorio}.webp`);
+        }
+        
     } else if (selecaoStick == 3){
-        trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`)
+        if (nAleatorio <= 93) {
+            trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 93).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/meme_${nAleatorio}.webp`);
+        }
+        
+    } 
+    else if (selecaoStick == 4){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/memegatos_${nAleatorio}.webp`)
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/memegatos_${nAleatorio}.webp`)
+        }
+        
+    } 
+    else if (selecaoStick == 5){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/memegatos2_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/memegatos2_${nAleatorio}.webp`);
+        }
+    } 
+    else if (selecaoStick == 6){
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/animals2_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/animals2_${nAleatorio}.webp`);
+        }
+        
+    } 
+    else if (selecaoStick == 7){
+        if (nAleatorio <= 83) {
+            trocaImage.setAttribute('src', `random/ale_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 83).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/ale_${nAleatorio}.webp`);
+        }
+        
     } else {
-        trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`)
+        if (nAleatorio <= 119) {
+            trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`);
+        } else {
+            const nAleatorio = (Math.random() * 119).toFixed(0,2);
+            trocaImage.setAttribute('src', `random/animals_${nAleatorio}.webp`);
+        }
     }
     
 
 
     imagePesada.innerHTML = `${imrandom} ${randomFrase}`
     fraseHash.innerHTML = `${randomFrase}`
-    
+    //voltaMesscima();
 }
 function outraideia() {
     location.reload();
@@ -81,12 +210,15 @@ function removeDiv() {
     const idImageFL = document.getElementById('frasesLoucas');
     idImageFL.addEventListener('click', 
     idImageFL.classList.add('DNone'));
+
+    
 }
 function removeDivB() {
     const idImageFL = document.getElementById('frasesLoucasB');
     idImageFL.addEventListener('click', 
     idImageFL.classList.add('DNone'));
 }
+
 
 
 
