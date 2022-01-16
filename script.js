@@ -19,7 +19,7 @@ function randomImagenindex() {
 
     const randomFrase = frases(parseInt(frasesR));
 
-    frasesLoucas.innerHTML = `${randomFrase}`
+    
     
     
 
@@ -95,7 +95,8 @@ function randomImagenindex() {
     
 
 
-    imagePesada.innerHTML = `${imrandom} ${randomFrase}`
+    //imagePesada.innerHTML = `${imrandom}`
+    frasesLoucas.innerHTML = `${randomFrase}`
     
     
 }
@@ -195,7 +196,7 @@ function randomImagen() {
     
 
 
-    imagePesada.innerHTML = `${imrandom} ${randomFrase}`
+    //imagePesada.innerHTML = `${imrandom} ${randomFrase}`
     fraseHash.innerHTML = `${randomFrase}`
     //voltaMesscima();
 }
