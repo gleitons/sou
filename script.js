@@ -126,10 +126,10 @@ function randomImagen() {
 
 
     if (selecaoStick == 1){
-        if (nAleatorio <= 68) {
+        if (nAleatorio <= 69) {
             trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
         } else {
-            const nAleatorio = (Math.random() * 68).toFixed(0,2);
+            const nAleatorio = (Math.random() * 69).toFixed(0,2);
             trocaImage.setAttribute('src', `random/${nAleatorio}.webp`);
         }
         
